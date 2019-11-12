@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="LoginText:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/LoginText_war</output-path>
+    <root id="archive" name="LoginText_war.war">
+      <element id="artifact" artifact-name="LoginText:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-8.0.17" />
+          <element id="library" level="project" name="servlet-api" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

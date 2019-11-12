@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- namespace属性 dao的全限定类名-->
+<mapper namespace="com.hc.dao.IUserDao">
+    <!--配置查询所有(id指的是方法名称-->
+    <select id="findAll" resultType="com.hc.pojo.User">
+        select * from user
+    </select>
+
+    <insert id="saveUser" parameterType="com.hc.pojo.User">
+        insert into user(username,birthday,sex,address) values(#{username},#{birthday},#{sex},#{address})
+    </insert>
+
+    <delete id="deleteUser" parameterType="java.lang.Integer">
+        delete from user where id=#{id}
+    </delete>
+
+    <update id="upDateUser" parameterType="com.hc.pojo.User">
+        update user set username=#{username},birthday=#{birthday},sex=#{sex},address=#{address}
+    </update>
+    
+    <!-- 指定id查询-->
+    <select id="findByID" resultType="com.hc.pojo.User">
+        select * from user where id=#{uid}
+    </select> 
+
+    <!-- 指定name模糊查询-->
+    <select id="findByName" resultType="com.hc.pojo.User" parameterType="string">
+        select * from user where username like #{name}
+    </select>
+
+    <!-- id总个数-->
+    <select id="findTotal" resultType="java.lang.Integer">
+        select count(id) from user
+    </select>
+
+    <!-- 根据条件查询-->
+    <select id="findByCondition" resultType="User" parameterType="user">
+        select * from user
+        <where>
+            <if test="username != null">
+                and username = #{username}
+            </if>
+        </where>
+
+    </select>
+
+    <!--根据queryvo的id集合实现查询用户列表-->
+    <select id="findUserInids" parameterType="queryvo" resultType="user">
+        select * from user
+        <where>
+            <if test="ids != null and ids.size()>0">
+                <foreach collection="ids" open="(" close=")" item="id" separator=",">
+                    #{id}
+                </foreach>
+            </if>
+        </where>
+    </select>
+
+</mapper>

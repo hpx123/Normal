@@ -1,0 +1,136 @@
+body{
+    background-image: url("timgSCO3JYRG.jpg");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 1800px;
+    height: 800px;
+    border: 10px solid #a7a6a6;
+    background:url("timgSCO3JYRG.jpg");
+    background-size:100%;
+}
+
+.box_one{
+    width: 800px;
+    height: 800px;
+    margin-right: 650px;
+    float: right;
+    overflow: hidden;
+}
+
+.box_two{
+    width: 60px;
+    height: 140px;
+    float: left;
+    z-index: 2;
+    text-align: center;
+    margin-left: 50px;
+    border-bottom: none;
+}
+
+.box_two a{
+    /*margin-left: -240px;*/
+    width: 300px;
+    height: 50px;
+    display: block;
+    border:1px solid;
+    color: black;
+    line-height: 50px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.box_two a:hover{
+    background-color: floralwhite;
+    font-weight: bold;
+    font-family: Arial;
+    border-radius: 10px;
+    opacity: 20%;
+}
+.uls{
+    width: 1500px;
+    height: 800px;
+    list-style: none;
+    padding: 20px;
+    padding-right:20px;
+    background:  no-repeat;
+}
+.uls li{
+    background: no-repeat left center;
+    padding:20px;
+    padding-right: 20px;
+    /*padding-left: -20px;*/
+    line-height: 20px;
+    font-size: 50px;
+}
+#uls_one{
+    background-position: 247px 15px;
+
+}
+#uls_two{
+    background-position: 247px 62px;
+}
+#uls_three{
+    background-position: 247px 111px;
+}
+
+.one{
+    width:200px;
+    height:150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border:1px solid black;
+    color:black;
+    font-size: 30px;
+}
+
+.one span{
+    line-height: 150px;
+    text-align: center;
+}
+
+.aui-info {
+    position: relative;
+    margin-top: 10px;
+}
+
+.fileInput{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    display: block;
+    width: 3.5rem;
+    clear: both;
+    display: block;
+    margin: auto;
+    background-color: red;
+}
+
+.fileInputContainer{
+    height:100px;
+    width: 100px;
+    background:url("timg.jpg") ;
+    background-size: 100% 100%;
+    position:relative;
+    margin-bottom: 10px;
+}
+.fileInput{
+    height:100px;
+    overflow: hidden;
+    font-size: 100px;
+    position:absolute;
+    right:0;
+    top:0;
+    opacity: 0;
+    filter:alpha(opacity=0);
+    cursor:pointer;
+}
+
+

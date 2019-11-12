@@ -1,0 +1,11 @@
+Session
+原理：
+    用户第一次访问服务器，服务器返回一个session对象给用户，并将该session对象的
+    JSESSIONID使用Cookie技术存储到浏览器中，也保证了不同请求能够获得到共享数据
+
+如果请求中有JSESSIONID，则返回其对应的session队形
+如果没有，服务器创建一个新的session对象，并将其JSESSIONID作为cookie数据存储到浏览器中
+如果session对象失效了，服务器创建一个新的session对象
+
+总结：
+Session解决了一个用户不同请求的数据共享问题

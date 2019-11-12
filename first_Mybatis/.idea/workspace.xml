@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5719baf5-f00f-4119-85fe-27637ef8b7d6" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TFRVzgVE6pXBC64nbkcW5hovFz" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.MybatisText.textFindByName">
+    <configuration name="MybatisText.textDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="first_Mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hc.text.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hc.text" />
+      <option name="MAIN_CLASS_NAME" value="com.hc.text.MybatisText" />
+      <option name="METHOD_NAME" value="textDelete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisText.textFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="first_Mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hc.text.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hc.text" />
+      <option name="MAIN_CLASS_NAME" value="com.hc.text.MybatisText" />
+      <option name="METHOD_NAME" value="textFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisText.textFindByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="first_Mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hc.text.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hc.text" />
+      <option name="MAIN_CLASS_NAME" value="com.hc.text.MybatisText" />
+      <option name="METHOD_NAME" value="textFindByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisText.textSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="first_Mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hc.text.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hc.text" />
+      <option name="MAIN_CLASS_NAME" value="com.hc.text.MybatisText" />
+      <option name="METHOD_NAME" value="textSave" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisText.textUpDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="first_Mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hc.text.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hc.text" />
+      <option name="MAIN_CLASS_NAME" value="com.hc.text.MybatisText" />
+      <option name="METHOD_NAME" value="textUpDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MybatisText.textFindByName" />
+        <item itemvalue="JUnit.MybatisText.textSave" />
+        <item itemvalue="JUnit.MybatisText.textFindAll" />
+        <item itemvalue="JUnit.MybatisText.textDelete" />
+        <item itemvalue="JUnit.MybatisText.textUpDate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5719baf5-f00f-4119-85fe-27637ef8b7d6" name="Default Changelist" comment="" />
+      <created>1573053884211</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573053884211</updated>
+      <workItem from="1573053885665" duration="1869000" />
+      <workItem from="1573056757798" duration="611000" />
+      <workItem from="1573057422776" duration="378000" />
+      <workItem from="1573124300783" duration="3106000" />
+      <workItem from="1573206818586" duration="9381000" />
+      <workItem from="1573283293261" duration="1382000" />
+      <workItem from="1573287029564" duration="117000" />
+      <workItem from="1573389238602" duration="16000" />
+      <workItem from="1573559342438" duration="9000" />
+      <workItem from="1573560870503" duration="11000" />
+      <workItem from="1573560896792" duration="4000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
